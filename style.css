@@ -3,35 +3,36 @@
     --branco-princípal:#ffffff;
     --azul:#167bf7;
     --cinza:#c0c0c0;
+    --fonte-principal: 'inter'
+     
 }
 body{
     background-color: var(--cor-de-fundo);
 color: var(--branco-princípal);
 } 
-* {
-    margin: 0;  
-    padding: 0;
- } 
-.princípal {
+* {margin: 0;
+padding: 0;}
+
+.principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
-  }
-.conteiner {
+}
+.container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-  }
- 
-.conteiner_botao {
+}
+
+.conteiner__botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-princípal);
     display: block;
-  }
+}
 
-  .botao_secundario{
+.botao.secundario{
     background-color: transparent;
     border: 2px solid var(--branco-princípal);
-  }
+}
