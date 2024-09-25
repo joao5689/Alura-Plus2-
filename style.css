@@ -1,49 +1,41 @@
-:root{
-    --cor-de-fundo:#00030c;
-    --branco-princípal:#ffffff;
-    --azul:#167bf7;
-    --cinza:#c0c0c0;
-    --fonte-principal: 'inter'
-     
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
 }
-body{
+
+body {
     background-color: var(--cor-de-fundo);
-color: var(--branco-princípal);
-} 
-* {margin: 0;
-padding: 0;}
+    color: var(--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.conteiner__botao{
-    background-color: var(--azul);
+.container__botao {
+    background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
-    color: var(--branco-princípal);
+    color: var(--branco-principal);
     display: block;
 }
 
-.botao.secundario{
+.botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-princípal);
-}
-
-.conteiner_aviso{
-    font-size: 12px;
-    color: var(--cinza);
-
-}
-.conteiner_titulo{
- font-size: 28px;
- font-weight: 700;
- 
+    border: 2px solid var(--branco-principal)
 }
